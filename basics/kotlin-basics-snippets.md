@@ -7,7 +7,7 @@ fun main() {
 
 ```
 
-###Variables
+## Variables
 //vals and vars
 
 ```kotlin
