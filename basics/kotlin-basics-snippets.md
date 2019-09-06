@@ -204,7 +204,8 @@ fun foo() {
 ```
 
 #### Collections
-A collection contains multiple items that can be accessed through subscripting.  Kotlin offers three main types of collections: Arrays, Lists, and Maps.
+A collection contains multiple items that can be accessed through subscripting.  
+Kotlin offers three main types of collections: Arrays, Lists, and Maps.
 
 ```kotlin
 
