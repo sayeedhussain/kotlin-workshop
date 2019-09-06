@@ -9,8 +9,7 @@ fun main() {
 
 ### Types
 
-Basic types used in Kotlin: booleans, numbers, characters, strings, arrays.
-
+booleans, numbers, characters, strings, arrays.
 
 #### Variables
 
