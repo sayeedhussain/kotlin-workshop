@@ -32,11 +32,9 @@ Exercise
 
 ```kotlin
 val x: Int // Error - variable must be initialized
-
 val x: Int = null // Error - null cannot be a value for non-null type Int
 val x: Int? = null // OK
-val y: String = null // Error - null cannot be a value for non-null type 
-val y: String? = null // OK
+
 
 //safe call (?)
 val name: String? = null
@@ -53,7 +51,7 @@ var i: Int? = 10
 i?.let { println(it) }//prints i 
 
 i = null
-i?.let { println(it) }//no-op
+i?.let { println(it) }//doesn't print
 
 //elvis operator
 val l = b?.length ?: -1
@@ -62,6 +60,11 @@ fun printName(name: String?) {
     val s = name ?: return //if name is null, returns without printing
     println(s)
 }
+
+/*
+Exercise
+1. Create a function that takes two nullable String args and returns a Concatenated String if at least one arg is non-null. Otherwise returns Empty String.
+*/
 ```
 
 #### Functions
