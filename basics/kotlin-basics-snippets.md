@@ -112,6 +112,29 @@ fun parseInt(str: String): Int? {
     // ...
 }
 
+//named arguments
+fun displayGreeting(message: String, name: String = "Guest") {
+    println("Hello $name, $message")
+}
+
+displayGreeting("Welcome to Kotlin") // Hello Guest, Welcome to Kotlin
+displayGreeting("Welcome to Kotlin", "Folks") // Hello Folks, Welcome to Kotlin
+
+//default arguments
+
+//varargs
+fun sumOfNumbers(vararg numbers: Double): Double {
+    var sum: Double = 0.0
+    for(number in numbers) {
+        sum += number
+    }
+    return sum
+}
+
+sumOfNumbers(1.5, 2.0)  // Result = 3.5
+sumOfNumbers(1.5, 2.0, 3.5, 4.0, 5.8, 6.2)  // Result = 23.0
+
+
 /*
 Exercise
 1. Create a function that takes two Int args and returns 'OE', 'EO', 'OO', EE'  
@@ -119,7 +142,9 @@ where O stands for Odd and E for even.
 
 2. Create a function that takes a String arg and a Int args and returns true or false  
 based on if the length of given String arg matches the given Int arg
-*/
+
+3. Create a function that takes a variable number of String args and returns a Contcatenated String with ', ' separator.
+ */
 
 ```
 
