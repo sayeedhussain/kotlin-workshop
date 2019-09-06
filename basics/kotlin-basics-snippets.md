@@ -7,7 +7,7 @@ fun main() {
 
 ```
 
-### Types
+#### Types
 
 booleans, numbers, characters, strings, arrays.
 
@@ -56,9 +56,12 @@ fun printName(name: String?) {
     val s = name ?: return //if name is null, returns without printing
     println(s)
 }
+```
+
+#### Functions
 
 
-//---Functions---
+```kotlin
 
 //Function without a return type
 fun printSum(a: Int, b: Int) {
@@ -89,8 +92,11 @@ fun maxOf(a: Int, b:Int) = if (a > b) a else
 fun parseInt(str: String): Int? {
     // ...
 }
+```
 
-//---Type Checks and Casts/SmartCasts: 'is' and 'as'---
+#### Type Checks and Casts/SmartCasts: 'is' and 'as'
+
+```kotlin
 fun getStringLength(obj: Any): Int? { //Any is a placeholder type for any kind of type. Rarely useful without casting :)
     if (obj !is String) return null
 
