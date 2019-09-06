@@ -21,12 +21,9 @@ var x = 5 // `Int` type is inferred
 x += 1 //changed after assignment
 
 /*
-
-Exercises
-
-1. Let's declare a String constant with initial value "Constant" using explicit type
+Exercise
+1. Declare a String constant with initial value "Constant" using explicit type
 2. Change the above constant to use type inference
-
 */
 
 ```
