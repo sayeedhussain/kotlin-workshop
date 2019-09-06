@@ -120,8 +120,6 @@ fun displayGreeting(message: String, name: String = "Guest") {
 displayGreeting("Welcome to Kotlin") // Hello Guest, Welcome to Kotlin
 displayGreeting("Welcome to Kotlin", "Folks") // Hello Folks, Welcome to Kotlin
 
-//default arguments
-
 //varargs
 fun sumOfNumbers(vararg numbers: Double): Double {
     var sum: Double = 0.0
