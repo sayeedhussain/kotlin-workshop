@@ -72,7 +72,8 @@ fun printName(name: String?) {
 
 /*
 Exercise
-1. Create a function that takes two nullable String args and returns a Concatenated String if at least one arg is non-null. Otherwise returns Empty String.
+1. Create a function that takes two nullable String args and returns a Concatenated String if  
+at least one arg is non-null. Otherwise returns Empty String.
 */
 ```
 
@@ -113,8 +114,11 @@ fun parseInt(str: String): Int? {
 
 /*
 Exercise
-1. Create a function that takes two Int args and returns 'OE', 'EO', 'OO', EE' where O stands for Odd and E for even.
-2. Create a function that takes a String arg and a Int args and returns true or false based on if the length of given String arg matches the given Int arg
+1. Create a function that takes two Int args and returns 'OE', 'EO', 'OO', EE'  
+where O stands for Odd and E for even.
+
+2. Create a function that takes a String arg and a Int args and returns true or false  
+based on if the length of given String arg matches the given Int arg
 */
 
 ```
