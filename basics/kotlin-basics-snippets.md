@@ -112,8 +112,11 @@ val x: String = y as String //if y is null, it causes exception
 
 //"Safe" cast
 val x: String? = y as? String
+```
 
-//---Control flow---
+#### Control flow
+
+```kotlin
 //for loop over array
 val items = listOf("apple", "banana", "kiwifruit")
 for (item in items) {
@@ -198,10 +201,13 @@ fun foo() {
     }
     print(" done with implicit label")
 }
+```
 
-//---Collections---
-//A collection contains multiple items that can be accessed through subscripting. 
-//Kotlin offers three main types of collections: Arrays, Lists, and Maps.
+#### Collections
+A collection contains multiple items that can be accessed through subscripting. 
+Kotlin offers three main types of collections: Arrays, Lists, and Maps.
+
+```kotlin
 
 val cardNames: Array = arrayOf("Jack", "Queen", "King")//explicit type
 val cardNames = arrayOf("Jack", "Queen", "King")//implicit type
@@ -265,9 +271,12 @@ val cardName = when (cardInt) {
     13 -> "King"
     else -> "Other"
 }
+```
 
-//---Lambdas---
-// Lambdas are code blocks enclosed in curly braces.
+#### Lambdas
+Lambdas are code blocks enclosed in curly braces.
+
+```kotlin
 
 val items = listOf(1, 2, 3, 4, 5)
 
@@ -308,10 +317,12 @@ ints.filter { it > 0 }.forEach {
     sum += it
 }
 println(sum)
+```
 
-//---Higher Order Functions---
-//A higher-order function is a function that takes functions as parameters, or returns a function.
+#### Higher Order Functions
+A higher-order function is a function that takes functions as parameters, or returns a function.
 
+```kotlin
 val ints = listOf(1, 2, 3, 4)
 ints.filter { it % 2 == 0 }.forEach { value ->
     println(value)
