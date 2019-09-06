@@ -132,7 +132,6 @@ fun sumOfNumbers(vararg numbers: Double): Double {
 sumOfNumbers(1.5, 2.0)  // Result = 3.5
 sumOfNumbers(1.5, 2.0, 3.5, 4.0, 5.8, 6.2)  // Result = 23.0
 
-
 /*
 Exercise
 1. Create a function that takes two Int args and returns 'OE', 'EO', 'OO', EE'  
