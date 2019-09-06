@@ -7,8 +7,12 @@ fun main() {
 
 ```
 
-## Variables
-//vals and vars
+### Types
+
+Basic types used in Kotlin: booleans, numbers, characters, strings, arrays.
+
+
+#### Variables
 
 ```kotlin
 val a: Int = 1  // immediate assignment
@@ -52,8 +56,6 @@ fun printName(name: String?) {
     println(s)
 }
 
-//---Types----
-//Basic types used in Kotlin: numbers, characters, booleans, arrays, and strings.
 
 //---Functions---
 
