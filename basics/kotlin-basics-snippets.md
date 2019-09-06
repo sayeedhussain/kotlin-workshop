@@ -20,9 +20,11 @@ val b = 2   // `Int` type is inferred
 var x = 5 // `Int` type is inferred
 x += 1 //changed after assignment
 
-val oneMillion = 1_000_000//underscores for readability
+```
 
-//---Nullability---
+#### Nullability
+
+```kotlin
 val x: Int // Error - variable must be initialized
 
 val x: Int = null // Error - null cannot be a value for non-null type Int
