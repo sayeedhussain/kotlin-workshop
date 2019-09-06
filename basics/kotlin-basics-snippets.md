@@ -5,9 +5,12 @@ fun main() {
     println("Hello world!")
 }
 
-//---Variables---
+```
+
+###Variables
 //vals and vars
 
+```kotlin
 val a: Int = 1  // immediate assignment
 val b = 2   // `Int` type is inferred
 
