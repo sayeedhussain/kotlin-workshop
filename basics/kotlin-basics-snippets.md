@@ -7,10 +7,6 @@ fun main() {
 
 ```
 
-#### Types
-
-booleans, numbers, characters, strings, arrays.
-
 #### Variables
 
 ```kotlin
@@ -26,6 +22,19 @@ Exercise
 2. Change the above constant to use type inference
 */
 
+```
+
+#### Types
+
+booleans, numbers, characters, strings, arrays.
+
+```kotlin
+
+val isKotlinGood: Boolean = true
+val int = 1
+val cChar = 'a'
+val cStr = "a"
+val arrayOfInt = arrayListOf(1, 2, 3, 4)
 ```
 
 #### Nullability
@@ -90,7 +99,7 @@ fun maxOf(a: Int, b: Int): Int {
     if (a > b) {
         return a
     } else {
-        return
+        return b
     }
 }
 
@@ -101,6 +110,12 @@ fun maxOf(a: Int, b:Int) = if (a > b) a else
 fun parseInt(str: String): Int? {
     // ...
 }
+
+/*
+Exercise
+1. Create a function that takes two Int args and returns 'OE', 'EO', 'OO', EE' where O stands for Odd and E for even.
+*/
+
 ```
 
 #### Type Checks and Casts/SmartCasts: 'is' and 'as'
