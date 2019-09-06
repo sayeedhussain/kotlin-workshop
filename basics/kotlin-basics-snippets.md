@@ -140,7 +140,7 @@ where O stands for Odd and E for even.
 2. Create a function that takes a String arg and a Int args and returns true or false  
 based on if the length of given String arg matches the given Int arg
 
-3. Create a function that takes a variable number of String args and returns a Contcatenated String with ', ' separator.
+3. Create a function that takes a variable number of String args and returns a Concatenated String with ', ' separator.
  */
 
 ```
